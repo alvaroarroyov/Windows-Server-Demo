@@ -1,12 +1,18 @@
-[![Windows Server](https://img.shields.io/badge/Windows%20Server-2022-azul)](https://github.com/alvaroarroyocompany/Windows-Server-Demo)
-[![PowerShell](https://img.shields.io/badge/PowerShell-5.1-verde)](https://github.com/alvaroarroyocompany/Windows-Server-Demo)
-[![Licencia](https://img.shields.io/badge/Licencia-MIT-amarillo)](https://github.com/alvaroarroyocompany/Windows-Server-Demo)
 # Windows Server 2022 Deployment Demo
+[![Windows Server](https://img.shields.io/badge/Windows%20Server-2022-blue)](https://github.com/alvaroarroyov/Windows-Server-Demo)
+[![PowerShell](https://img.shields.io/badge/PowerShell-5.1-green)](https://github.com/alvaroarroyov/Windows-Server-Demo)
+[![License](https://img.shields.io/badge/License-MIT-yellow)](https://github.com/alvaroarroyov/Windows-Server-Demo)
 
-Practical setup of a secure Windows Server environment with DNS, AD, IIS, VPN, and PowerShell automation.
+A practical setup of a secure Windows Server environment with DNS, AD, IIS, VPN, and PowerShell automation.
+
+## Table of Contents
+- [Introduction](#introduction)
+- [Prerequisites](#prerequisites)
+- [Step-by-Step Configuration](#step-by-step-configuration)
+- [Conclusion](#conclusion)
 
 ## Introduction
-This project demonstrates my skills in configuring Windows Server 2022 for small-medium businesses, including DNS zones, Active Directory, VPN, a website via IIS, and user automation scripts.
+This project showcases my skills in configuring Windows Server 2022 for small to medium businesses, including DNS zones, Active Directory, VPN, a website via IIS, and user automation scripts.
 
 ## Prerequisites
 - Windows Server 2022 VM (VirtualBox, 2GB RAM assigned)
@@ -63,7 +69,7 @@ rejected.
 
 In addition, an IP address range was added that the server will dynamically assign to clients connecting via VPN. These are internal IPs, as if the client were within the local network, and therefore they are not public. 
 
-![Ip address range](Images/25.PNG)  <!-- Embed imagen -->
+![Ip address range](Images/26.PNG)  <!-- Embed imagen -->
 
 
 ### 5. PowerShell Automation
@@ -73,4 +79,6 @@ These scripts, especially CSV, help create users in bulk in the asset directory.
 ![Script Result](Images/34.PNG)
 
 ## Conclusion
-This lab demonstrates the ability to configure a functional Windows Server 2022 environment, integrating key services such as DNS with forward and reverse zones, Active Directory with a custom OU (Employees), a website using IIS, a VPN for remote access, and group policies (GPO) for basic security. Automation with PowerShell scripts to create users individually and in bulk using CSV reflects a practical approach to efficient server management. Despite initial challenges related to permissions and AD configuration, resolving these issues through troubleshooting and permission adjustments validates the ability to diagnose and correct errors in real environments. This project not only meets the basic requirements for small business environments, but also lays the foundation for future enhancements, such as firewall rules or security audits, providing a solid starting point for freelance work in system administration.
+This lab demonstrates the ability to configure a functional Windows Server 2022 environment, integrating key services such as DNS with forward and reverse zones, Active Directory with a custom OU (Employees), a website using IIS, a VPN for remote access, and group policies (GPO) for basic security. Automation with PowerShell scripts to create users individually and in bulk using CSV reflects a practical approach to efficient server management. Despite initial challenges related to permissions and AD configuration, resolving these issues through troubleshooting and permission adjustments validates the ability to diagnose and correct errors in real environments. This project not only meets the basic requirements for small business environments but also lays the foundation for future enhancements, such as firewall rules or security audits, providing a solid starting point for freelance work in system administration.
+
+Contact me for freelance opportunities at iam.alvaroarroyo@outlook.com or via Upwork.
